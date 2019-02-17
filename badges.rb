@@ -11,6 +11,13 @@ end
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def assign_rooms(speaker ,room)
+  if(room)
+    
+  end
   
+  roomAssignment = "Hello, " + speaker + "!" +
+  "You'll be assigned to room " + room + "!"
   
 end
+
+assign_rooms()
