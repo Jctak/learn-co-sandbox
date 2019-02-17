@@ -3,15 +3,19 @@ def badge_maker(name)
   put greeting + name
 end
 
-#def batch_badge_creator(speaker)
-  #badge_maker(speaker)
-  #return
-#end
+def batch_badge_creator(speaker)
+  badge_maker(speaker)
+  return
+end
 
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def assign_rooms(speaker ,room)
+  
+  
   if(room)
+    
+  else 
     
   end
   
