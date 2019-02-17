@@ -10,14 +10,15 @@ end
 
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+i = 0;
 def assign_rooms(speaker, room)
   #speaker.each do |speaker_room_array| 
     #speaker_room_array.each do |speaker_room_array|
      
      speakerRoomAssign = [[],[]]
      speaker.each do |speakerRoomAssign|
-       speakerRoomAssign.push
-       
+       speakerRoomAssign.push[i]
+       i++
   
   
   roomAssignment = "Hello, " + speaker + "!" +
