@@ -8,4 +8,4 @@ def batch_badge_creator
   
 end
 
-speaker_array = ["Edsger", "Ada", ]
+speaker_array = ["Edsger", "Ada", "", "", ""]
