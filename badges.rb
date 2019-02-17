@@ -12,7 +12,7 @@ speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def assign_rooms(speaker, room)
   speaker.each do |speaker_room_array| 
-    speaker_room_array
+    speaker_room_array.each do 
   if(room)
     
   else 
