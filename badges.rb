@@ -1,6 +1,6 @@
 def badge_maker(name)
   greeting = "Hello, my name is "
-  put greeting + name
+  return greeting + name
 end
 
 def batch_badge_creator(speaker)
@@ -27,5 +27,5 @@ end
 
 def printer()
   puts batch_badge_creator()
-  assign_rooms()
+  puts assign_rooms()
 end
