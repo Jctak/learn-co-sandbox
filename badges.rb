@@ -10,11 +10,9 @@ end
 
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def assign_rooms(speaker ,room)
-  speaker_room_array = [][] 
-  speaker.each do ||
+def assign_rooms(speaker, room)
+  speaker.each do |speaker_room_array|
     
-  
   if(room)
     
   else 
