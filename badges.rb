@@ -10,6 +10,8 @@ end
 
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+room_array =[0,1,2,3,4,5,6]
+
 i = 0;
 
 def assign_rooms(speaker, room)
@@ -29,8 +31,8 @@ def assign_rooms(speaker, room)
 end
 
 def printer()
-  puts batch_badge_creator()
-  puts assign_rooms()
+  puts batch_badge_creator(speaker_array)
+  puts assign_rooms(speaker_array, room_array)
 end
 
 printer()
