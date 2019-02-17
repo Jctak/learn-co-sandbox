@@ -11,17 +11,18 @@ end
 speaker_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def assign_rooms(speaker, room)
-  speaker.each do |speaker_room_array| 
-    speaker_room_array.each do |speaker_room_array|
-  if(room)
-    
-  else 
-    
-  end
+  #speaker.each do |speaker_room_array| 
+    #speaker_room_array.each do |speaker_room_array|
+     
+     speakerRoom = 
+  
   
   roomAssignment = "Hello, " + speaker + "!" +
   "You'll be assigned to room " + room + "!"
   
 end
 
-assign_rooms()
+def printer()
+  puts batch_badge_creator()
+  assign_rooms()
+end
