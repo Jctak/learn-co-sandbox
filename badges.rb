@@ -16,7 +16,7 @@ def assign_rooms(speaker, room)
      
      speakerRoom = [][]
      speaker.each do |speakerRoomAssign|
-       
+       speakerRoom.push
        
   
   
